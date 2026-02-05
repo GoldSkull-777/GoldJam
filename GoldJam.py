@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 # GoldJam - WiFi Jammer
 # Author: GoldSkull-777
 import os
@@ -332,4 +333,5 @@ if __name__ == '__main__':
             if os.path.exists(f"/sys/class/net/{mon}"):
                 restore(mon)
                 break
+
 
